@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="flex-container">
+        <h1 class="heading-text" >Alarm Clock</h1>
+        <p id="current-time" class="display-time" >--:--:--</p>
+        <p id="alarm-time" class="display-time" >--:--:--</p>
+        <form class="alarm-inputs">
+            <label for="hours-input">Hours</label>
+            <input 
+            id="hour-input"
+            class="inputs"
+            type="number"
+            min="1"
+            max="23 "
+            value="1"
+            required> 
+            <label for="minute-input">Minute</label>
+            <input
+            id="minute-input"
+            class="inputs"
+            type="number"
+            min="00"
+            max="59"
+            value="00"
+            required>
+        </form>
+        <p id="pop-up-msg"></p>
+        <button id="set-alarm">SET ALARM</button>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

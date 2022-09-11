@@ -1,0 +1,55 @@
+body{
+margin: 0;
+background-color: #3a86ff;
+}
+#flex-container{
+    width: 500px;
+    /* height: 500px; */
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: #00b4d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 0px;
+   padding-bottom: 0px;
+    /* justify-content: center; */
+    
+}
+.heading-text{
+    padding-top: 0;
+}
+#current-time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#alarm-time{
+    margin-top:10px;
+}
+.display-time{
+    font-size: 50px;
+    font-weight: 200;
+}
+.inputs{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+#hour-input{
+    margin-left: 8px;
+    margin-right: 10px;
+    width: 44px;
+}
+/* #minute-input{
+    margin-right: 8px;
+    margin-left: 10px;
+} */
+
+#set-alarm{
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
