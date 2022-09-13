@@ -1,15 +1,17 @@
 body{
 margin: 0;
-background-color: #3a86ff;
+background-color: #1F2937;
+font-family: alarms;
+color:  #38BDF8;
 }
 #flex-container{
     width: 500px;
     /* height: 500px; */
-    border: 1px solid black;
+    border: 1px solid #FBBF24;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
-    background-color: #00b4d8;
+    background-color: #075985;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,11 +19,20 @@ background-color: #3a86ff;
    padding-bottom: 0px;
    border-radius: 5px;
     /* justify-content: center; */
+}
+
+h1{
+    
+    font-size: 60px;
     
 }
 .heading-text{
     padding-top: 0;
 }
+.time-display{
+    font-size: large;
+}
+
 #current-time{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -30,7 +41,7 @@ background-color: #3a86ff;
     margin-top:10px;
 }
 .display-time{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 200;
 }
 .inputs{
@@ -43,14 +54,43 @@ background-color: #3a86ff;
     margin-right: 10px;
     width: 44px;
 }
-/* #minute-input{
-    margin-right: 8px;
-    margin-left: 10px;
-} */
 
-#set-alarm{
-    padding: 10px 20px;
+.inputs{
+    background-color: #BAE6FD;
+}
+
+
+#alarm-time{
+    margin-bottom: 20px;
+}
+
+.btn-property{
+    padding: 20px 30px;
+    font-size: 18px;
     border: none;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #FBBF24;
+}
+
+#dismiss-alarm{
+    margin-bottom: 30px;
+}
+
+.btn-property:hover{
+    background-color: #F59E0B;
+}
+
+@font-face {
+    font-family: alarms;
+    src: url(fonts/digital-7.ttf);
+}
+.about{
+    width: 100px;
+    margin-top: 150px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: 10px;
+    font-family: 'Bad Script', cursive;
+    
 }

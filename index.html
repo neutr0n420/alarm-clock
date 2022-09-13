@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <title>Alarm Clock</title>
 </head>
 <body>
     <div id="flex-container">
@@ -13,7 +17,7 @@
         <p id="current-time" class="display-time" >--:--:--</p>
         <p id="alarm-time" class="display-time" >--:--:--</p>
         <form class="alarm-inputs">
-            <label for="hours-input">Hours</label>
+            <label for="hours-input" class="time-display">Hours</label>
             <input 
             id="hour-input"
             class="inputs"
@@ -34,9 +38,12 @@
             
         </form>
         <p id="pop-up-msg"></p>
-        <button id="set-alarm">SET ALARM</button>
-        
-    </div>
+        <div class="">
+            <button class="btn-property" id="set-alarm" >SET ALARM</button>
+            <button class="btn-property" id="dismiss-alarm">I am getting up</button>
+        </div>
+       </div>
+       <p class="about">Made By Aryan</p>
     <script src="index.js"></script>
 </body>
 </html>

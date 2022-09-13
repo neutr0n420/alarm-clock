@@ -2,6 +2,7 @@ const currentTImeDisplay = document.getElementById("current-time")
 const alarmTimeDisplay = document.getElementById("alarm-time")
 const displayMessage = document.getElementById("pop-up-msg")
 document.getElementById("set-alarm").addEventListener("click", setAlarm)
+document.getElementById("dismiss-alarm").addEventListener("click", stopRing)
 let currentTime = null
 let alarmTime = null
 
@@ -51,6 +52,10 @@ function ringBell(){
     audio.play()
     // console.log("hello")
     displayMessage.textContent = "Get Up 🔔"
+}
+function stopRing(){
+    displayMessage.textContent = "Good Morning!🌤"
+    audio.pause()
 }
 
 
