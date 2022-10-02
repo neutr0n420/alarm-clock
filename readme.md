@@ -1,3 +1,39 @@
+
+# Alarm Clock
+This is a simple alarm clock that implements many useful features while following regular design standards to ensure that it is quick and intuitive to use.
+
+## Features
+
+- Set a Quick Alarm for faster nap
+- Add Alarms With Advanced Options
+- Real-time weather condition
+- Wishes By our app
+
+
+
+## Authors
+
+- [@neutr0n420](https://github.com/neutr0n420)
+
+
+## 🚀 About Me
+Hi there
+🔭 I’m currently working on Projects based on frontend technologies
+🌱 I’m currently learning Web Development
+👯 I’m looking to collaborate on some cool javascript projects
+🤔 I’m looking for help with
+💬 Ask me about blockchain, web3 and web devlopment
+😄 Pronouns: he/him/his
+📫 How to reach me: aryanbramhane1@gmail.com
+
+
+## 🛠 Skills
+Web3 and Web development|| HTML, CSS, JS, Python, C++
+
+
+## Thank you Wake up faster, set alarms with loud sounds.!
+
+
 # Studentfolio
 
 Use Flask, Jinja, Google Maps API to create a new student portfolio page.
